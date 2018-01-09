@@ -16,5 +16,12 @@ list index out of range
 
 >解决方案基于: https://github.com/sshwsfc/xadmin/issues/499
 
+- 导出csv中文乱码(已解决)
+
+>解决方案: 修改xadmin/plugins/export.py(大约221行)get_response中charset改为gbk
+
+```
+content_type="%s; charset=gbk" % self.export_mimes[file_type])
+```
 
 
