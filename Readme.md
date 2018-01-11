@@ -1,27 +1,31 @@
-# xadmin_django2.0.1
+ï»¿# xadmin_django2.0.1
 
 [![Build Status](https://travis-ci.org/mtianyan/hexoBlog-Github.svg?branch=master)](https://travis-ci.org/mtianyan/hexoBlog-Github)
 
-»ùÓÚÔ­°æ for Django 2.0°æ±¾·ÖÖ§ĞŞ¸Ä²¿·Öbug£º
+åŸºäºåŸç‰ˆ for Django 2.0ç‰ˆæœ¬åˆ†æ”¯ä¿®æ”¹éƒ¨åˆ†bug, å¦‚æœå¯¹æ‚¨æœ‰æ‰€å¸®åŠ©, è¿˜è¯·star!è°¢è°¢!
 
-- Ö»ĞŞ¸Äbug, ÒÔ¼°±ØÒª¸Ä¶¯¡£¸öÈËÏîÄ¿×ÔÓÃ, Ç×²âPython3.5+django2.0.1ÔËĞĞÕı³£
+- åªä¿®æ”¹bug, ä»¥åŠå¿…è¦æ”¹åŠ¨ã€‚ä¸ªäººé¡¹ç›®è‡ªç”¨, äº²æµ‹Python3.5+django2.0.1è¿è¡Œæ­£å¸¸
 
-## bug»ã×Ü(Ò²¿ÉÍ¨¹ıcommit¼ÇÂ¼²é¿´ÒÑĞŞ¸´bug):
+## bugæ±‡æ€»(ä¹Ÿå¯é€šè¿‡commitè®°å½•æŸ¥çœ‹å·²ä¿®å¤bug):
 
-- IndexError(ÒÑ½â¾ö)
+- IndexError(å·²è§£å†³)
 
 ```
 list index out of range
 ```
 
->½â¾ö·½°¸»ùÓÚ: https://github.com/sshwsfc/xadmin/issues/499
+>è§£å†³æ–¹æ¡ˆåŸºäº: https://github.com/sshwsfc/xadmin/issues/499
 
-- µ¼³öcsvÖĞÎÄÂÒÂë(ÒÑ½â¾ö)
+- å¯¼å‡ºcsvä¸­æ–‡ä¹±ç (å·²è§£å†³)
 
->½â¾ö·½°¸: ĞŞ¸Äxadmin/plugins/export.py(´óÔ¼221ĞĞ)get_responseÖĞcharset¸ÄÎªgbk
+>è§£å†³æ–¹æ¡ˆ: ä¿®æ”¹xadmin/plugins/export.py(å¤§çº¦221è¡Œ)get_responseä¸­charsetæ”¹ä¸ºgbk
 
 ```
 content_type="%s; charset=gbk" % self.export_mimes[file_type])
 ```
+
+- åå°ImageFiledå›¾ç‰‡å·²ç»æœ‰äº†è¿˜éœ€è¦æäº¤(å·²è§£å†³)
+
+
 
 
