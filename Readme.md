@@ -1,4 +1,8 @@
-﻿# xadmin_django2.0.1
+﻿# 粗略测试可用于2.2 的xadmin 与 Django ueditor
+
+测试使用项目 Mxonline3 VueDjangoFrameworkShop
+
+# xadmin_django2.0.1
 
 [![Build Status](https://travis-ci.org/mtianyan/hexoBlog-Github.svg?branch=master)](https://travis-ci.org/mtianyan/hexoBlog-Github)
 
